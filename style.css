@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    line-height: 1;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    background: #F0F0F0;
+}
+
+#homeBoxes {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#main {
+    position: relative;
+    margin: 0 auto;
+    max-width: 90%;
+    clear: both;
+}
+
+#main.outsidebox {
+    background: #FFF;
+    position: relative;
+    z-index: 2;
+    left: 0;
+    top: 30px;
+    bottom: 150px;
+    width: 800px;
+    border-radius: 9px;
+}
+
+#insidebox {
+    text-align: center;
+    position: relative;
+    padding: 10px 10px 20px 10px;
+}
+
+#insidebox_thankyou {
+    text-align: center;
+    position: relative;
+    padding: 20px 20px 30px 20px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: #333333;
+    line-height: 1em;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1em;
+    padding: 5px 0px 10px 0px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #e96800;
+    line-height: 1em;
+    padding: 10px 0px 0px 0px;
+}
+
+#legal {
+    line-height: 1em;
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+a:link {
+    color: #0000FF;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+.optin_form {
+    text-align: center;
+    position: relative;
+    background: #fceaac;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fcd751;
+    padding: 30px 10px 10px 10px;
+}
+
+.optin_form input[type="text"] {
+    width: 85%;
+    height: 60px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #c8c8c8;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.optin_form input {
+    padding: 0px;
+    margin-bottom: 1.0em;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.optin_form input[type="submit"] {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    width: 85%;
+    color: #333;
+    border: 2px solid #f0c62e;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fcd432;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcd432), to(#f0c62e));
+    background-image: -webkit-linear-gradient(top, #fcd432, #f0c62e);
+    background-image: -moz-linear-gradient(top, #fcd432, #f0c62e);
+    background-image: -ms-linear-gradient(top, #fcd432, #f0c62e);
+    background-image: -o-linear-gradient(top, #fcd432, #f0c62e);
+    background-image: linear-gradient(to bottom, #fcd432, #f0c62e);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#fcd432, endColorstr=#f0c62e);
+    font-weight: bold;
+}
+
+.optin_form input[type="submit"]:hover {
+    border: 2px solid #f0c62e;
+    background-color: #ffe042;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe042), to(#f0c330));
+    background-image: -webkit-linear-gradient(top, #ffe042, #f0c330);
+    background-image: -moz-linear-gradient(top, #ffe042, #f0c330);
+    background-image: -ms-linear-gradient(top, #ffe042, #f0c330);
+    background-image: -o-linear-gradient(top, #ffe042, #f0c330);
+    background-image: linear-gradient(to bottom, #ffe042, #f0c330);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffe042, endColorstr=#f0c330);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px 10px 20px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .optin_form {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    #main {
+        max-width: 100%;
+    }
+    #main.outsidebox {
+        top: 0px;
+    }
+}
